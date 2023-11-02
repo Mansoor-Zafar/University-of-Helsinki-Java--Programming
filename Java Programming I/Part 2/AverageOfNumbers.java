@@ -8,7 +8,7 @@ public class AverageOfNumbers {
         double sum = 0, numOfInputs = 0, input;
         
         System.out.println("Give a number:");
-        while((input = scan.nextInt()) != 0){
+        while((input = scan.nextDouble()) != 0){
             System.out.println("Give a number:");
             sum += input;
             ++numOfInputs;
