@@ -12,5 +12,7 @@ public class CarryOn {
                 break;
             }
         }
+        scan.close();
+        scan = null;
     }
 }
