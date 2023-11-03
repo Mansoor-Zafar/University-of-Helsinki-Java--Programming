@@ -10,5 +10,6 @@ public class AreWeThereYet {
             System.out.println("Give a number:");
         }
         scan.close();
+        scan = null;
     }
 }
