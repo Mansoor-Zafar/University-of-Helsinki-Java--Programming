@@ -7,5 +7,8 @@ public class Squared {
 
         int value = Integer.valueOf(scan.nextLine());
         System.out.println(value*value);
+
+        scan.close();
+        scan = null;
     }
 }
