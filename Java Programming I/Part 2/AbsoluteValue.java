@@ -12,5 +12,7 @@ public class AbsoluteValue {
         } else {
             System.out.println(input);
         }
+        scan.close();
+        scan = null;
     }
 }
