@@ -19,5 +19,6 @@ public class OnlyPositives {
             System.out.println(Math.pow(number, 2));
         }
         scan.close();
+        scan = null;
     }
 }
