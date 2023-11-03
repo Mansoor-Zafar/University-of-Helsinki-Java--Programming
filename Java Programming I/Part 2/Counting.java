@@ -9,6 +9,7 @@ public class Counting {
         for(int currentCount = 0; currentCount <= countTo; ++currentCount){
             System.out.println(currentCount);
         }
-
+        scan.close();
+        scan = null;
     }
 }
